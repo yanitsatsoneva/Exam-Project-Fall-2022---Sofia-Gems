@@ -1,0 +1,105 @@
+:root {
+	--blue: #056e83;
+	--light-blue: #b1d1d0;
+	--white: #ffffff;
+	--salmon: #f67d6a;
+	--light-salmon: #f8ccaf;
+	--white: #ffffff;
+	--black: #000000;
+	--body-fonts: "Roboto";
+	--logo-fonts: "Molot", sans-serif;
+	--subheading-fonts: "Franklin Gothic Heavy";
+	--font-size-heading: 2.6vw;
+	--font-size-subheading: 1.5vw;
+	--font-size-bodytext: 1.2vw;
+	--font-size-nav: 50px;
+	--font-size-nav-active: 60px;
+	--border-radius-boxes: 6px;
+	--border-radius-buttons: 20px;
+  }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*Logo*/
+.logo {
+	float: left;
+	width: 20%;
+	padding-top: 27px;
+	text-decoration: none;
+	font-family: var(--logo-fonts);
+	color: #000000;
+}
+.logostyle {
+	width: 125px;
+	height: 30px;
+	margin-left: -110px;
+}
+
+/*Navigation*/
+.nav {
+	float: right;
+	width: 70%;
+}
+
+/*.nav ul {
+	margin: 10px;
+}*/
+
+.nav ul li {
+	display: inline-block;
+	padding: 15px 40px;
+	font-size: 20px;
+	transition: var(--black) 0.5s;
+	font-family: var(--body-fonts);
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav ul li a:hover {
+	color: var(--black);
+	font-weight: bolder;
+}
+
+.signinbtn {
+	border-radius: 10px;
+	padding: 7px 25px;
+	font-family: var(--body-fonts);
+	font-weight: bold;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 15px;
+	margin-left: 280px;
+	
+}
+
+/*Body*/
+.blackbox {
+	width: 92.3rem;
+	height: 1000px;
+	background-color: #000000;
+	border: #000000;
+	margin: auto;
+	margin-top: 4.5rem;
+}
+
+.whitebox1 {
+	width: 92rem;
+	height: 25rem;
+	border: solid black 2px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.exploreheading {
+	font-family: var(--subheading-fonts);
+	font-size: 3.2rem;
+	margin-left: 3.5rem;
+	margin-top: 4rem;
+}
