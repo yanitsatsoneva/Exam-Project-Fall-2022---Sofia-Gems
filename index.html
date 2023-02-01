@@ -8,49 +8,152 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div id="header">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="index.html">
-                    <img class="logostyle" src="images/logo.png" alt="logo">
-                </a>
-            </div>
+    <header id="navbar">
+        <a href="index.html"><img class="logostyle" src="images/logo.png" alt="logo"></a>
+        <nav>
+            <ul id="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+            <a class="cta" href="sign-in.html"><button class="sibtn">Sign In</button></a>
 
-            <div class="nav">
-                <ul>
-                    <li>
-                        <a href="#">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Explore
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Blog
-                        </a>
-                    </li>
-                    <!--<li>
-                        <a href="#">
-                            аксесоари
-                        </a>
-                    </li>-->
-                    <button class="signinbtn">Sign In</button>
-                </ul>
+        
+    </header>
+ 
+
+        <div class="black-box">
+            <div class="content">
+                <h1 class="exploreheading">Explore more than <br>
+                    you see...</h1>
+    
+                    <a href="explore.html"><button class="explorebtn">Explore</button></a>
+                
+                <img class="sofia-image" src="images/sofiaimage.png" alt="Sofia Image">    
                 
             </div>
+
+            <div id="container">
+                <div> 
+                    <p class="first-container-text">Brush up on your <br> 
+                        Cyrillic beforehand, <br>
+                        because Sofia tends to charm <br>
+                        its visitors into <br>
+                        lingering here indefinitely.</p>
+
+                        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+                            <image id="icons8-quotes-64" width="49" height="49" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAABl0lEQVR4nO3ZP0oDQRzF8W9SqQewU/AcEsQqxFzAzlYPYec9AopiJSZ3UMFS8AQK/rew0oBZi42QSUjc+e1mdgffB6YbeI/ZnexkF0REREREREREsmkDXeARGADJH+MdOAJWK5bhbRE4zVBm2ngAViqQYZan2O84rECGyVYBxRLgteQMs25B5ZKSM8yeApQLkeGoZZ0IfAN1j/mW3BAZ/pOGirytpuWGyHAUtdrR0gKUXaBsWgCPuYO5tQib4fBZgLmcrkrIcPgswNXcWoTNMGtRzAnts+SMXE4KKPdcgQyzBeA4Z7nrCmTk1gTOSF8+ZHlbMzo6FcoI4ga33E6kGSYbuMX6wHKEGSZ14AK3XDfCDLNdJvfmeoQZJg3SZ/FosV6EGSYN4A232AewFlmGtzqwx+RVGQDbEWV4qwGbwCWT+zEB9iPJyGyJ9PNTEzgAbqeUylMsRIa3NnA/o8j4frTckiEyzO4yFuth/zEKkWE2q1wfOCf/MzhEhllrWPALeCH9x9UhPXcXdfQMkSEiIiIiIiIi/9wP2jgAg0Hr4sIAAAAASUVORK5CYII="/>
+                          </svg>
+                          
+                    <p class="first-container-author">- Stephanie Craig</p>
+                </div>
+
+                <div>
+                    <p class="second-container-text">Get a buddy and explore <br>
+                        Sofia's hidden places <br>
+                        with a great company. </p>
+
+                    <p class="second-container-link"><a class="style-link" href="getabuddy.html">Learn more</a></p>
+
+                    <img class="buddies-img1" src="images/buddies-small.png" alt="Buddies">
+
+                    <p class="second-container-small-text">Our Buddies</p>
+                </div>
+
+                <div>
+                    <p class="third-container-text">You want to share <br>
+                        more about a <br>
+                        place you've visited? <br>
+                        Write a blog post about it.</p>
+
+                        <button class="post-blog-btn">Post a Blog</button>
+
+                </div>
+              </div>
+
+              <div id="container-footer">
+                <div class="contact-box">
+                    <h4 class="contact-text">Contact us</h4>
+
+                    <p class="contact-content"> Email:  sofiagems@gmail.com <br>
+                       Phone number:  0888888888
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="contact-text">Social Media</h4>
+
+                    <p class="some-content">
+                        @sofiagems <br>
+                        Sofia Gems
+                    </p>
+
+                    <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="25.165" height="23.72" viewBox="0 0 37.165 35.72">
+                        <g id="Group_1" data-name="Group 1" transform="translate(-2.558 -2.542)">
+                          <path id="Path_2" data-name="Path 2" d="M16,7.959a2.025,2.025,0,1,1,2.024,1.959A1.993,1.993,0,0,1,16,7.959Z" transform="translate(13.63 2.163)" fill="#fff"/>
+                          <path id="Path_3" data-name="Path 3" d="M17.763,7.25A10.4,10.4,0,0,0,7.25,17.531,10.4,10.4,0,0,0,17.763,27.811,10.4,10.4,0,0,0,28.276,17.531,10.4,10.4,0,0,0,17.763,7.25ZM10.57,17.531a7.2,7.2,0,1,1,7.193,7.034A7.115,7.115,0,0,1,10.57,17.531Z" transform="translate(3.378 2.872)" fill="#fff" fill-rule="evenodd"/>
+                          <path id="Path_4" data-name="Path 4" d="M31.489,3.091a97.855,97.855,0,0,0-20.7,0A8.476,8.476,0,0,0,3.17,10.328a83.24,83.24,0,0,0,0,20.15,8.475,8.475,0,0,0,7.622,7.237,97.956,97.956,0,0,0,20.7,0,8.476,8.476,0,0,0,7.622-7.237,83.226,83.226,0,0,0,0-20.15,8.475,8.475,0,0,0-7.622-7.237ZM11.119,5.905a94.777,94.777,0,0,1,20.043,0,5.587,5.587,0,0,1,5.019,4.753,80.52,80.52,0,0,1,0,19.489A5.581,5.581,0,0,1,31.162,34.9a94.771,94.771,0,0,1-20.043,0A5.581,5.581,0,0,1,6.1,30.148a80.52,80.52,0,0,1,0-19.489,5.581,5.581,0,0,1,5.019-4.751Z" fill="#fff" fill-rule="evenodd"/>
+                        </g>
+                      </svg>
+                    <br>
+                      <svg class="fb-icon" xmlns="http://www.w3.org/2000/svg" width="19.165" height="34.4" viewBox="0 0 23.165 38.4">
+                        <path id="Path_5" data-name="Path 5" d="M14.862,5.279A10.843,10.843,0,0,1,22.4,2.25h5.486a1.5,1.5,0,0,1,1.524,1.477v7.089a1.5,1.5,0,0,1-1.524,1.477H22.4a.3.3,0,0,0-.3.3v3.84h5.791a1.542,1.542,0,0,1,1.2.568,1.442,1.442,0,0,1,.277,1.268l-1.829,7.089a1.516,1.516,0,0,1-1.479,1.119H22.1v12.7a1.5,1.5,0,0,1-1.524,1.477H13.26a1.5,1.5,0,0,1-1.524-1.477v-12.7H7.774A1.5,1.5,0,0,1,6.25,24.995V17.905a1.5,1.5,0,0,1,1.524-1.477h3.962v-3.84A10.179,10.179,0,0,1,14.861,5.28ZM22.4,5.2a7.505,7.505,0,0,0-7.62,7.385v5.317a1.5,1.5,0,0,1-1.524,1.477H9.3v4.135H13.26a1.5,1.5,0,0,1,1.524,1.477V37.7h4.267v-12.7a1.5,1.5,0,0,1,1.524-1.477h4.3l1.067-4.135H20.575a1.5,1.5,0,0,1-1.524-1.477V12.589A3.3,3.3,0,0,1,22.4,9.339h3.962V5.2Z" transform="translate(-6.25 -2.25)" fill="#fff" fill-rule="evenodd"/>
+                      </svg>
+                      
+                </div>
+
+              </div>
+              <p class="rights">©2022, All rights reserved. Development by TsonevaDesign.</p>
         </div>
+
+        
+
+        
     </div>
- <br>
-    <div class="blackbox">
-        <div class="whitebox1">
-            <h1 class="exploreheading">Explore more than <br>
-                you see...</h1>
+
+    <!-- mobile navigation -->
+    <div class="mobile-navigation-box"><header class="mobile-navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14">
+            <g id="Group_9" data-name="Group 9" transform="translate(-90 -179)">
+              <line id="Line_15" data-name="Line 15" x2="23" transform="translate(90 180)" fill="none" stroke="#000" stroke-width="2"/>
+              <line id="Line_16" data-name="Line 16" x2="23" transform="translate(90 192)" fill="none" stroke="#000" stroke-width="2"/>
+              <line id="Line_17" data-name="Line 17" x2="23" transform="translate(90 186)" fill="none" stroke="#000" stroke-width="2"/>
+            </g>
+          </svg>
+          
+        <img class="mobile-logo" src="images/logo.png" alt="">
+          
+    </header></div>
+
+    <div class="mobile-black-box">
+        <div id="container-mobile">
+            <div>
+                <h1 class="heading-mobile">Explore more than <br> you see...</h1>
+                <img class="image-mobile" src="images/sofiaimage 222.png" alt="Sofia Image">
+            </div>
+                <p class="first-container-text-mobile">Brush up on your <br> 
+                    Cyrillic beforehand, <br>
+                    because Sofia tends to charm <br>
+                    its visitors into <br>
+                    lingering here indefinitely.</p>
+
+                    <svg class="quote-icon-mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+                        <image id="icons8-quotes-64" width="49" height="49" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAABl0lEQVR4nO3ZP0oDQRzF8W9SqQewU/AcEsQqxFzAzlYPYec9AopiJSZ3UMFS8AQK/rew0oBZi42QSUjc+e1mdgffB6YbeI/ZnexkF0REREREREREsmkDXeARGADJH+MdOAJWK5bhbRE4zVBm2ngAViqQYZan2O84rECGyVYBxRLgteQMs25B5ZKSM8yeApQLkeGoZZ0IfAN1j/mW3BAZ/pOGirytpuWGyHAUtdrR0gKUXaBsWgCPuYO5tQib4fBZgLmcrkrIcPgswNXcWoTNMGtRzAnts+SMXE4KKPdcgQyzBeA4Z7nrCmTk1gTOSF8+ZHlbMzo6FcoI4ga33E6kGSYbuMX6wHKEGSZ14AK3XDfCDLNdJvfmeoQZJg3SZ/FosV6EGSYN4A232AewFlmGtzqwx+RVGQDbEWV4qwGbwCWT+zEB9iPJyGyJ9PNTEzgAbqeUylMsRIa3NnA/o8j4frTckiEyzO4yFuth/zEKkWE2q1wfOCf/MzhEhllrWPALeCH9x9UhPXcXdfQMkSEiIiIiIiIi/9wP2jgAg0Hr4sIAAAAASUVORK5CYII="/>
+                    </svg>
+                    
+                <p class="first-container-author-mobile">- Stephanie Craig</p>
+            <div>
+
+            </div>
+
+            <div></div>
+
+            <div></div>
         </div>
+        
+
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
