@@ -10,7 +10,7 @@ window.onscroll = function() {
   else {
     navbar.classList.remove("sticky");
   }
-}
+};
 
 const toggleModal = () => {
   const { classList } = document.body;
